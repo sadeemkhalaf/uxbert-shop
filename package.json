@@ -1,14 +1,15 @@
 {
-  "name": "typescript-nextjs-starter",
-  "description": "A TypeScript starter for Next.js that includes all you need to build amazing projects",
+  "name": "typescript-nextjs-shop",
+  "description": "Uxbert Labs Shop assignment",
   "version": "1.0.0",
   "private": true,
-  "author": "João Pedro Schmitz <hey@joaopedro.dev> (@jpedroschmitz)",
+  "author": "SadeemK",
   "license": "MIT",
   "keywords": [
     "nextjs",
     "starter",
-    "typescript"
+    "typescript",
+    "shop"
   ],
   "scripts": {
     "dev": "next",
@@ -23,18 +24,19 @@
     "./src/**/*.{ts,js,jsx,tsx}": [
       "yarn lint --fix",
       "yarn format"
+      
     ]
   },
   "dependencies": {
     "next": "10.2.0",
     "react": "17.0.2",
+    "@types/react": "17.0.5",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "12.1.4",
     "@commitlint/config-conventional": "12.1.4",
     "@types/node": "14.14.45",
-    "@types/react": "17.0.5",
     "@types/react-dom": "17.0.5",
     "@typescript-eslint/eslint-plugin": "4.23.0",
     "@typescript-eslint/parser": "4.23.0",
